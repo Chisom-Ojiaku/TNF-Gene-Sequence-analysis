@@ -3,112 +3,53 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+<h3 align="center">TNF GENE SEQUENCE ANALYSIS</h3>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> This project employs bioinformatics techniques to examine the TNF gene sequence and explore its functional and structural properties..
     <br> 
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Folder Arrangement](#folder-arrangement  )
+- [Project task](#Project task)
+- [Tools](#Tools)
+- [How to use Respository](#how-to-use-a-respository)
+- [Reference](#Reference)
 
-## 🧐 About <a name = "about"></a>
+## About <a name = "Overview"></a>
+The report covers key tasks and methods, including sequence retrieval, translation, ORF identification, nucleotide composition analysis, transcription factor binding site identification, functional motif discovery, and coding/non-coding region prediction.
 
-Write about 1-2 paragraphs describing the purpose of your project.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+## Folder Arrangement <a name = "Folder Arrangement"></a>
+Data: This is where the data used for this project is located.
+Figures : This is where the screenshoots,images and figures is located and this was generated using tools such as BioEdit,PROMO,MEME SUITE and GENSCAN
+Outputs : This is where result files is located
+Report : This is a summary of the project in a pdf format.
+### Project Task
+Sequence Acquisition: Retrieved the TNF gene sequence from NCBI and visualized it using BioEdit.
+Amino Acid Translation: Translated the DNA sequence into an amino acid sequence.
+Open Reading Frame (ORF) Analysis: Identified ORFs within the gene sequence using BioEdit.
+Nucleotide Composition Analysis: Analyzed nucleotide frequencies and GC content.
+Transcription Factor Binding Sites Identification: Identified potential binding sites using PROMO.
+Functional Motif Discovery: Detected motifs using MEME Suite.
+Coding/Non-Coding Region Prediction: Predicted regions using GENSCAN.
+File Format Conversion: Converted sequence files between FASTA and PHYLIP formats.
+### TOOLS
+BioEdit
+PROMO
+MEME Suite
+GENSCAN
+## How to use a Respository 
+1.Clone the respiratory
+2. Go through the files including READ.md for a summary about this project, look into every folder in this project and look at the report.
+3. Feel free to contribute to this project, fork the repository and submit a pull request with changes.
+## Reference <a name = "Reference"></a>
+NCBI
+BioEdit
+PROMO
+MEME Suite
+GENSCAN
